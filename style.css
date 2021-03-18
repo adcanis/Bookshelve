@@ -1,0 +1,98 @@
+
+/* Majority of stylesheet is coming from Bulma */
+html {
+    background-color: #8dcce2;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.library {
+    margin-top: 50px;
+}
+
+.card {
+    margin: 0 auto;
+    width: 40rem;
+    border-top: 2px solid lightgrey;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.bookList {
+    display: flex;
+    justify-content: center;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    margin-top: 50px;
+    color: #363636;
+}
+
+.modal-card-title {
+    display: flex;
+    justify-content: center;
+}
+
+.modal-card {
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+}
+.modal-card-body input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.modal-card-body h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.modal-card-foot {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* New Book Settings as per JavaScript */
+.card-header-book {
+    font-size: 30px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+
+.fa-book {
+    display: flex;
+    justify-content: center;
+}
+
+.author {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.pages {
+    font-size: 16px;
+    display: flex;
+    Justify-content: center;
+}
+
+.button {
+    margin-left: 10px;;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
