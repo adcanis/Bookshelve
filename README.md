@@ -1,9 +1,16 @@
-# The Bookshelve
+# My Bookshelve
 
-This project was created for The Odin Project Javascript course. 
-I chose to create a card style layout using Bulma.
-Local storage has not been set up yet but will be added. 
+This project was created for The Odin Project Javascript course. This particular project represents roughly 16hrs of work, and despite some struggles I feel confident in what I am learning. I also took this project to work on my code layout, and practice best practices. 
 
-I will say, this was so far the toughest project as I have been finding Javascript to be a bit more challanging than I thought. I am currently taking the Colt Steele Bootcamp at the same time, and find the combination of the two courses help my understanding immensely. 
+![alt text](https://github.com/adcanis/Bookshelf/blob/main/myBookshelf_github.jpg)
 
-This project ended up taking me roughly 16hrs to complete, and I will be revisiting this one to expand on it. Future goals for the library will support fetching Play Book covers and details for entered books. 
+**Styling**
+
+I chose to go with a card style design, this time using Bulma. I also chose to stick with a single column stack approach. I decided on this, as I felt it provides a clean scroll through the items and lends itself the ability to work well in mobile settings. 
+
+**Expansion**
+
+I have intentions of revisiting this project to add user login and storage options, as well I would like to include the ability to fetch cover art and book details from Play Books. 
+
+**Thanks for looking**
+
