@@ -31,6 +31,7 @@ saveBtn.addEventListener('click', function () {
     modal.style.display = 'none';
     addBookToLibrary();
     makeBook();
+    userInputs.reset();
 })
 
 //Library Globals
@@ -65,15 +66,15 @@ function makeBook(book) {
 
     myBooks.classList.add('card');
     myBooks.setAttribute('id', myLibrary.indexOf(book));
-    myBooks.appendChild(bookTitle);
-    bookImg.classList.add('fa-book');
     myBooks.appendChild(bookImg);
-    
     
     bookTitle.textContent = title.value;
     bookTitle.classList.add('card-header-book');
+    bookImg.setAttribute('class', 'far fa-bookmark');
+    bookImg.setAttribute('id', 'bookIcon');
+    myBooks.appendChild(bookImg);
     myBooks.appendChild(bookTitle);
-
+    
     bookAuthor.textContent = 'Author:  ' + author.value;
     bookAuthor.classList.add('author');
     myBooks.appendChild(bookAuthor);
@@ -84,6 +85,7 @@ function makeBook(book) {
 
     removeBtn.textContent = 'x';
     removeBtn.classList.add('button');
+    removeBtn.setAttribute('id', 'removeBtn');
     myBooks.appendChild(removeBtn);
     library.appendChild(myBooks);
     removeBtn.style.backgroundColor = '#ff3860';
@@ -102,12 +104,14 @@ function makeBook(book) {
 
     haveRead.textContent = 'Finished'
     haveRead.classList.add('button')
+    haveRead.setAttribute('id', 'finishBtn');
     myBooks.appendChild(haveRead)
     haveRead.addEventListener('click', function () {
         haveRead.style.backgroundColor = '#00d1b2';
         haveRead.style.color = "#ffffff";
     })
 }
+
 
 //Library Storage Settings
 // function localData() {

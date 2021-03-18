@@ -39,6 +39,10 @@ html {
     margin-top: 50px;
     color: #363636;
 }
+#copyrightLink {
+    text-decoration: none;
+    color: #363636;
+}
 
 .modal-card-title {
     display: flex;
@@ -74,13 +78,16 @@ html {
     justify-content: center;
 }
 
-.fa-book {
+#bookIcon {
     display: flex;
     justify-content: center;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #209cee;
 }
 
 .author {
-    font-size: 20px;
+    font-size: 30px;
     display: flex;
     justify-content: center;
 }
@@ -96,3 +103,12 @@ html {
     margin-bottom: 5px;
     margin-right: 5px;
 }
+
+#removeBtn {
+    justify-content: flex-end;
+}
+
+#finishBtn {
+    justify-content: fex-start;
+}
+
